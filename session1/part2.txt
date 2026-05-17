@@ -1,0 +1,33 @@
+1. What is the difference between forEach and for...of? When would you use each? 
+forach:عندما نريد تنفيذ عملية معينة على جميع عناصر المصفوفة دون استثناء
+for of عندتنفيذ عمليه يوجد بها شرط
+
+2-What is hoisting and what is the Temporal Dead Zone (TDZ)? Explain with examples
+hoisting بيتم رفع المتغيرات والدوال اعلي  الاسكوب قبل تنفيذ الكود
+TDZهي المنطقه  بداية بالاسكوب الي ان يتم تعريف المتغيرات 
+example 
+  tdz
+console.log(y);tdz
+let y=5;
+What are the main differences between == and ===?
+==compare value
+===compare value and datatype
+
+3-Explain how try-catch works and why it is important in async operations.
+هي اداه بتتعامل مع الاخطأ بدلا منان يتوقف الكود عند حدوث خطأ وتتكون من شقين 
+try بنضع الكود ال ممكن يتسبب بمشكله
+catch بيتنفذ ف حالة وجود مشكله
+اهميته 
+1-منع انهيار البرنامج
+2-تحسين تجربة المستخدم مثلا بدلا من اظهار شاشه بيضاء يظهر عذرا قد حصل خطأ يرجي الانتظار
+
+5. What’s the difference between type conversion and coercion? Provide examples of each.
+type conversion 
+يحدث عندما نقوم بتغير نوع المتغير الي نوع اخري 
+example:
+let value = "123"; 
+let convert = Number(value);
+coercion
+بتقوم الجافا اسكربت بتحويل نوع المتغير لأتمم العمليه الحسابه 
+let sum='5'=5
+consol.log(sum);
